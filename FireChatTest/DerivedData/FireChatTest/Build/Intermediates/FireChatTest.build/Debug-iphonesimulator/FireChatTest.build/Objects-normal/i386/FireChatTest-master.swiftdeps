@@ -1,0 +1,13 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "8e5738885b42d89c68df056f65a39697"
+build_time: [514101991, 751822000]
+inputs:
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/FireChatTest/FireChatTest/FirebaseController.swift": [513790265, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/FireChatTest/FireChatTest/Thread.swift": [513790265, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/FireChatTest/FireChatTest/ChatViewController.swift": [513805841, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/FireChatTest/FireChatTest/FirebaseChat.swift": [513894503, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/FireChatTest/FireChatTest/Message.swift": [513894508, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/FireChatTest/FireChatTest/GlobalKeys.swift": [513894508, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/FireChatTest/FireChatTest/MessageController.swift": [513894508, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/FireChatTest/FireChatTest/AppDelegate.swift": [513743985, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/FireChatTest/FireChatTest/ThreadController.swift": [513805159, 0]

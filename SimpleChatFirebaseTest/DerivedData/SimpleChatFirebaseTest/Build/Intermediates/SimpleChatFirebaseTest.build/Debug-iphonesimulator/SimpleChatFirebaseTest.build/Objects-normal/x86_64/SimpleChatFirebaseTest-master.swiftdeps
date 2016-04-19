@@ -1,0 +1,12 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "a0002ebf6232301acb65fa9384bf85c3"
+build_time: [513744009, 43615000]
+inputs:
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/SimpleChatFirebaseTest/SimpleChatFirebaseTest/FirebaseController.swift": !dirty [513736497, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/SimpleChatFirebaseTest/SimpleChatFirebaseTest/Thread.swift": !dirty [513741691, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/SimpleChatFirebaseTest/SimpleChatFirebaseTest/MessageController.swift": !dirty [513741691, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/SimpleChatFirebaseTest/SimpleChatFirebaseTest/FirebaseChat.swift": !dirty [513743112, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/SimpleChatFirebaseTest/SimpleChatFirebaseTest/Message.swift": !dirty [513741691, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/SimpleChatFirebaseTest/SimpleChatFirebaseTest/ThreadController.swift": !dirty [513743381, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/SimpleChatFirebaseTest/SimpleChatFirebaseTest/ChatViewController.swift": !dirty [513743637, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/SimpleChatFirebaseTest/SimpleChatFirebaseTest/AppDelegate.swift": !dirty [513742762, 0]

@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74F8C9581CB9A08500C02079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8C9571CB9A08500C02079 /* AppDelegate.swift */; };
+		74F8C95A1CB9A08500C02079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F8C9591CB9A08500C02079 /* ViewController.swift */; };
+		74F8C95D1CB9A08500C02079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F8C95B1CB9A08500C02079 /* Main.storyboard */; };
+		74F8C95F1CB9A08500C02079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F8C95E1CB9A08500C02079 /* Assets.xcassets */; };
+		74F8C9621CB9A08500C02079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F8C9601CB9A08500C02079 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74F8C9541CB9A08500C02079 /* SliderAdjustingTextSizeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderAdjustingTextSizeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F8C9571CB9A08500C02079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74F8C9591CB9A08500C02079 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74F8C95C1CB9A08500C02079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74F8C95E1CB9A08500C02079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74F8C9611CB9A08500C02079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74F8C9631CB9A08500C02079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74F8C9511CB9A08500C02079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74F8C94B1CB9A08500C02079 = {
+			isa = PBXGroup;
+			children = (
+				74F8C9561CB9A08500C02079 /* SliderAdjustingTextSizeTest */,
+				74F8C9551CB9A08500C02079 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74F8C9551CB9A08500C02079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F8C9541CB9A08500C02079 /* SliderAdjustingTextSizeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F8C9561CB9A08500C02079 /* SliderAdjustingTextSizeTest */ = {
+			isa = PBXGroup;
+			children = (
+				74F8C9571CB9A08500C02079 /* AppDelegate.swift */,
+				74F8C9591CB9A08500C02079 /* ViewController.swift */,
+				74F8C95B1CB9A08500C02079 /* Main.storyboard */,
+				74F8C95E1CB9A08500C02079 /* Assets.xcassets */,
+				74F8C9601CB9A08500C02079 /* LaunchScreen.storyboard */,
+				74F8C9631CB9A08500C02079 /* Info.plist */,
+			);
+			path = SliderAdjustingTextSizeTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F8C9531CB9A08500C02079 /* SliderAdjustingTextSizeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F8C9661CB9A08500C02079 /* Build configuration list for PBXNativeTarget "SliderAdjustingTextSizeTest" */;
+			buildPhases = (
+				74F8C9501CB9A08500C02079 /* Sources */,
+				74F8C9511CB9A08500C02079 /* Frameworks */,
+				74F8C9521CB9A08500C02079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SliderAdjustingTextSizeTest;
+			productName = SliderAdjustingTextSizeTest;
+			productReference = 74F8C9541CB9A08500C02079 /* SliderAdjustingTextSizeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74F8C94C1CB9A08500C02079 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NSDesert;
+				TargetAttributes = {
+					74F8C9531CB9A08500C02079 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 74F8C94F1CB9A08500C02079 /* Build configuration list for PBXProject "SliderAdjustingTextSizeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74F8C94B1CB9A08500C02079;
+			productRefGroup = 74F8C9551CB9A08500C02079 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F8C9531CB9A08500C02079 /* SliderAdjustingTextSizeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74F8C9521CB9A08500C02079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F8C9621CB9A08500C02079 /* LaunchScreen.storyboard in Resources */,
+				74F8C95F1CB9A08500C02079 /* Assets.xcassets in Resources */,
+				74F8C95D1CB9A08500C02079 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F8C9501CB9A08500C02079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F8C95A1CB9A08500C02079 /* ViewController.swift in Sources */,
+				74F8C9581CB9A08500C02079 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74F8C95B1CB9A08500C02079 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F8C95C1CB9A08500C02079 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74F8C9601CB9A08500C02079 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F8C9611CB9A08500C02079 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74F8C9641CB9A08500C02079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74F8C9651CB9A08500C02079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74F8C9671CB9A08500C02079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SliderAdjustingTextSizeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SliderAdjustingTextSizeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74F8C9681CB9A08500C02079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SliderAdjustingTextSizeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SliderAdjustingTextSizeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F8C94F1CB9A08500C02079 /* Build configuration list for PBXProject "SliderAdjustingTextSizeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F8C9641CB9A08500C02079 /* Debug */,
+				74F8C9651CB9A08500C02079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F8C9661CB9A08500C02079 /* Build configuration list for PBXNativeTarget "SliderAdjustingTextSizeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F8C9671CB9A08500C02079 /* Debug */,
+				74F8C9681CB9A08500C02079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74F8C94C1CB9A08500C02079 /* Project object */;
+}

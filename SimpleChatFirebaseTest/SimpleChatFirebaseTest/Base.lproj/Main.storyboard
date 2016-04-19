@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Chat View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ChatViewController" customModule="SimpleChatFirebaseTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wPA-1M-8Dg">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="207"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="chatCell" id="onV-Kh-55O">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="onV-Kh-55O" id="BQ9-IC-38z">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="baL-u5-iyb"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Xaw-ni-dAL"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKC-B5-aTd">
+                                <rect key="frame" x="282" y="253" width="36" height="30"/>
+                                <state key="normal" title="Send"/>
+                                <connections>
+                                    <action selector="sendButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cE4-jM-DSd"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gd9-9V-i3u">
+                                <rect key="frame" x="20" y="215" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="UY8-fa-kb0"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gd9-9V-i3u" firstAttribute="top" secondItem="wPA-1M-8Dg" secondAttribute="bottom" constant="8" id="9me-Vd-Qmy"/>
+                            <constraint firstItem="tKC-B5-aTd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9q3-Ce-tAk"/>
+                            <constraint firstItem="gd9-9V-i3u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="FcR-sM-PvH"/>
+                            <constraint firstItem="wPA-1M-8Dg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NvQ-IF-URR"/>
+                            <constraint firstItem="tKC-B5-aTd" firstAttribute="top" secondItem="gd9-9V-i3u" secondAttribute="bottom" constant="8" id="VD2-sr-YwE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wPA-1M-8Dg" secondAttribute="bottom" constant="393" id="doI-ST-zZx"/>
+                            <constraint firstItem="wPA-1M-8Dg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gve-4v-BUg"/>
+                            <constraint firstAttribute="trailing" secondItem="gd9-9V-i3u" secondAttribute="trailing" constant="20" id="xqg-de-Rty"/>
+                            <constraint firstAttribute="trailing" secondItem="wPA-1M-8Dg" secondAttribute="trailing" id="zgt-gD-JXD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="messageTextField" destination="gd9-9V-i3u" id="IEu-m1-p7p"/>
+                        <outlet property="tableview" destination="wPA-1M-8Dg" id="T40-aj-Iv9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="367"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "e85e14c3064cc2107fd6ff4c977482b0"
+build_time: [513463842, 337957000]
+inputs:
+  "/Users/JLH/Desktop/Personal Projects/Xcode Lifelong Learning/TextFontTest/TextFontTest/ViewController.swift": [513463842, 0]
+  "/Users/JLH/Desktop/Personal Projects/Xcode Lifelong Learning/TextFontTest/TextFontTest/AppDelegate.swift": [513462337, 0]

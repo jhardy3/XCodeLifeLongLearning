@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SliderAdjustingTextSizeTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JnT-0u-fcW">
+                                <rect key="frame" x="279" y="289" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="L9u-Bs-mUU">
+                                <rect key="frame" x="18" y="132" width="564" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="bRC-fT-LaU"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="bRC-fT-LaU"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="testFontColorSliderFired:" destination="BYZ-38-t0r" eventType="valueChanged" id="UwJ-e3-cGD"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="L9u-Bs-mUU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="213-0n-27r"/>
+                            <constraint firstItem="L9u-Bs-mUU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="112" id="8Tq-LV-w9O"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="L9u-Bs-mUU" secondAttribute="leading" id="AmT-0S-EE7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="L9u-Bs-mUU" secondAttribute="trailing" id="Qhq-A5-gDo"/>
+                            <constraint firstItem="JnT-0u-fcW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jfj-wS-ox3"/>
+                            <constraint firstItem="JnT-0u-fcW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xzt-9k-hME"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="testFontColorLabel" destination="JnT-0u-fcW" id="ZoZ-yH-VYi"/>
+                        <outlet property="testFontColorSlider" destination="L9u-Bs-mUU" id="Z82-ij-CPy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="362"/>
+        </scene>
+    </scenes>
+</document>

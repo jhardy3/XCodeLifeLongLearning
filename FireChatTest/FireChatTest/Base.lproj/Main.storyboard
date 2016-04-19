@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Chat View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ChatViewController" customModule="FireChatTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fXo-Vr-lOu">
+                                <rect key="frame" x="0.0" y="20" width="600" height="344"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="chatCell" id="3Zw-zw-yzl">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Zw-zw-yzl" id="bwY-z7-Lif">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="ULW-YD-D9q"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ege-yQ-cUG"/>
+                                </connections>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IsX-4e-neF">
+                                <rect key="frame" x="20" y="372" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ahj-6Y-Q2p"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMc-5K-Qt0">
+                                <rect key="frame" x="282" y="410" width="36" height="30"/>
+                                <state key="normal" title="Send"/>
+                                <connections>
+                                    <action selector="sendButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jsc-Bh-4Jq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IsX-4e-neF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="1dI-GG-anY"/>
+                            <constraint firstItem="sMc-5K-Qt0" firstAttribute="top" secondItem="IsX-4e-neF" secondAttribute="bottom" constant="8" id="2Wh-zn-7lf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fXo-Vr-lOu" secondAttribute="bottom" constant="236" id="HOg-XX-lcj"/>
+                            <constraint firstItem="fXo-Vr-lOu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="JKQ-sg-r4x"/>
+                            <constraint firstAttribute="trailing" secondItem="fXo-Vr-lOu" secondAttribute="trailing" id="MwL-bH-Aeb"/>
+                            <constraint firstAttribute="trailing" secondItem="IsX-4e-neF" secondAttribute="trailing" constant="20" id="QC6-wT-g9l"/>
+                            <constraint firstItem="sMc-5K-Qt0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W1Q-1n-dpg"/>
+                            <constraint firstAttribute="trailing" secondItem="sMc-5K-Qt0" secondAttribute="trailing" constant="282" id="ZJZ-zb-Sld"/>
+                            <constraint firstItem="sMc-5K-Qt0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="282" id="bPG-QL-db8"/>
+                            <constraint firstItem="IsX-4e-neF" firstAttribute="top" secondItem="fXo-Vr-lOu" secondAttribute="bottom" constant="8" id="e8l-he-FnE"/>
+                            <constraint firstItem="fXo-Vr-lOu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tsc-n7-Wk1"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ZJZ-zb-Sld"/>
+                                <exclude reference="bPG-QL-db8"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="messageTextField" destination="IsX-4e-neF" id="hkG-kr-TTM"/>
+                        <outlet property="tableview" destination="fXo-Vr-lOu" id="4FA-wj-22l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="366"/>
+        </scene>
+    </scenes>
+</document>

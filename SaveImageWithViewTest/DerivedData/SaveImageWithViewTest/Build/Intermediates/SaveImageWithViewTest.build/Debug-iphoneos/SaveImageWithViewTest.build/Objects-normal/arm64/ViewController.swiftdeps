@@ -1,0 +1,289 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C21SaveImageWithViewTest14ViewController"
+provides-member:
+- ["C21SaveImageWithViewTest14ViewController", ""]
+provides-dynamic-lookup:
+- "theTestTap"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "testLabel"
+- "testImageView"
+depends-top-level:
+- "UIImageView"
+- !private "BooleanLiteralType"
+- "UITapGestureRecognizer"
+- "UIViewController"
+- "UILabel"
+- !private "StringLiteralType"
+- !private "print"
+- !private "ImageUitilies"
+- "ViewController"
+depends-member:
+- !private ["Ps9AnyObject", "ImageUitilies"]
+- !private ["Ps9AnyObject", "createImageWithViewOnTop"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "testImageView"]
+- ["Ps9AnyObject", "testLabel"]
+- ["Ps9AnyObject", "theTestTap"]
+- !private ["Ps9AnyObject", "userInteractionEnabled"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "ImageUitilies"]
+- !private ["Ps11CVarArgType", "createImageWithViewOnTop"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["Ps11CVarArgType", "image"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "testImageView"]
+- ["Ps11CVarArgType", "testLabel"]
+- ["Ps11CVarArgType", "theTestTap"]
+- !private ["Ps11CVarArgType", "userInteractionEnabled"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "ImageUitilies"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "createImageWithViewOnTop"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "testImageView"]
+- ["Ps28CustomDebugStringConvertible", "testLabel"]
+- ["Ps28CustomDebugStringConvertible", "theTestTap"]
+- !private ["Ps28CustomDebugStringConvertible", "userInteractionEnabled"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "ImageUitilies"]
+- !private ["Ps23CustomStringConvertible", "createImageWithViewOnTop"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "testImageView"]
+- ["Ps23CustomStringConvertible", "testLabel"]
+- ["Ps23CustomStringConvertible", "theTestTap"]
+- !private ["Ps23CustomStringConvertible", "userInteractionEnabled"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "ImageUitilies"]
+- !private ["Ps9Equatable", "createImageWithViewOnTop"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "testImageView"]
+- ["Ps9Equatable", "testLabel"]
+- ["Ps9Equatable", "theTestTap"]
+- !private ["Ps9Equatable", "userInteractionEnabled"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "ImageUitilies"]
+- !private ["Ps8Hashable", "createImageWithViewOnTop"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "testImageView"]
+- ["Ps8Hashable", "testLabel"]
+- ["Ps8Hashable", "theTestTap"]
+- !private ["Ps8Hashable", "userInteractionEnabled"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["C21SaveImageWithViewTest13ImageUitilies", "createImageWithViewOnTop"]
+- !private ["PSo8NSCoding", "ImageUitilies"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "testImageView"]
+- ["PSo8NSCoding", "testLabel"]
+- ["PSo8NSCoding", "theTestTap"]
+- !private ["PSo8NSCoding", "userInteractionEnabled"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "ImageUitilies"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "testImageView"]
+- ["PSo26NSExtensionRequestHandling", "testLabel"]
+- ["PSo26NSExtensionRequestHandling", "theTestTap"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "ImageUitilies"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITapGestureRecognizer"]
+- !private ["CSo8NSObject", "createImageWithViewOnTop"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "testImageView"]
+- ["CSo8NSObject", "testLabel"]
+- ["CSo8NSObject", "theTestTap"]
+- !private ["CSo8NSObject", "userInteractionEnabled"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "ImageUitilies"]
+- !private ["PSo16NSObjectProtocol", "createImageWithViewOnTop"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "testImageView"]
+- ["PSo16NSObjectProtocol", "testLabel"]
+- ["PSo16NSObjectProtocol", "theTestTap"]
+- !private ["PSo16NSObjectProtocol", "userInteractionEnabled"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "userInteractionEnabled"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "userInteractionEnabled"]
+- !private ["PSo21UIAppearanceContainer", "ImageUitilies"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "testImageView"]
+- ["PSo21UIAppearanceContainer", "testLabel"]
+- ["PSo21UIAppearanceContainer", "theTestTap"]
+- !private ["PSo21UIAppearanceContainer", "userInteractionEnabled"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "ImageUitilies"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "testImageView"]
+- ["PSo18UIContentContainer", "testLabel"]
+- ["PSo18UIContentContainer", "theTestTap"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "userInteractionEnabled"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "userInteractionEnabled"]
+- !private ["PSo18UIFocusEnvironment", "ImageUitilies"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "testImageView"]
+- ["PSo18UIFocusEnvironment", "testLabel"]
+- ["PSo18UIFocusEnvironment", "theTestTap"]
+- !private ["PSo18UIFocusEnvironment", "userInteractionEnabled"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIImageView", "userInteractionEnabled"]
+- !private ["CSo11UIResponder", "ImageUitilies"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITapGestureRecognizer"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "testImageView"]
+- ["CSo11UIResponder", "testLabel"]
+- ["CSo11UIResponder", "theTestTap"]
+- !private ["CSo11UIResponder", "userInteractionEnabled"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "ImageUitilies"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "testImageView"]
+- ["PSo16UIStateRestoring", "testLabel"]
+- ["PSo16UIStateRestoring", "theTestTap"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "ImageUitilies"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "testImageView"]
+- ["PSo18UITraitEnvironment", "testLabel"]
+- ["PSo18UITraitEnvironment", "theTestTap"]
+- !private ["PSo18UITraitEnvironment", "userInteractionEnabled"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "userInteractionEnabled"]
+- !private ["CSo16UIViewController", "ImageUitilies"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UITapGestureRecognizer"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "testImageView"]
+- ["CSo16UIViewController", "testLabel"]
+- ["CSo16UIViewController", "theTestTap"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["C21SaveImageWithViewTest14ViewController", "ImageUitilies"]
+- ["C21SaveImageWithViewTest14ViewController", "UIImageView"]
+- ["C21SaveImageWithViewTest14ViewController", "UILabel"]
+- ["C21SaveImageWithViewTest14ViewController", "UITapGestureRecognizer"]
+- ["C21SaveImageWithViewTest14ViewController", "deinit"]
+- ["C21SaveImageWithViewTest14ViewController", "didReceiveMemoryWarning"]
+- ["C21SaveImageWithViewTest14ViewController", "init"]
+- !private ["C21SaveImageWithViewTest14ViewController", "print"]
+- ["C21SaveImageWithViewTest14ViewController", "testImageView"]
+- ["C21SaveImageWithViewTest14ViewController", "testLabel"]
+- ["C21SaveImageWithViewTest14ViewController", "theTestTap"]
+- ["C21SaveImageWithViewTest14ViewController", "viewDidLoad"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "image"]
+- !private ["Ps12_Reflectable", "userInteractionEnabled"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "C21SaveImageWithViewTest13ImageUitilies"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C21SaveImageWithViewTest14ViewController"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "0148a2ed79cdd52120d9e7125589dcf6"

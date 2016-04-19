@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bK3-bv-4R1">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--New View Controller-->
+        <scene sceneID="gY0-Ck-Qzk">
+            <objects>
+                <viewController id="bK3-bv-4R1" customClass="newViewController" customModule="SWRevealViewControllerTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qxz-Kf-y44"/>
+                        <viewControllerLayoutGuide type="bottom" id="ALh-OZ-Tc9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xj5-4t-aSp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="Nf2-QN-TN3" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="POq-6P-EbG"/>
+                        <segue destination="cx4-us-L6F" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="h5S-S4-0xm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i9j-SH-0Wj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="248" y="324"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="h9m-Mx-BW4">
+            <objects>
+                <viewController id="7h7-MA-GP4" customClass="SecondViewController" customModule="SWRevealViewControllerTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zyt-gw-6R7"/>
+                        <viewControllerLayoutGuide type="bottom" id="iLc-XD-PZ2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pRW-cd-Mr4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="YTn-t4-voP">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.40125707963563173" blue="0.49293894742612088" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YTn-t4-voP" secondAttribute="trailing" id="E9X-aB-4HY"/>
+                            <constraint firstItem="YTn-t4-voP" firstAttribute="top" secondItem="pRW-cd-Mr4" secondAttribute="top" id="i30-cs-hVF"/>
+                            <constraint firstItem="YTn-t4-voP" firstAttribute="leading" secondItem="pRW-cd-Mr4" secondAttribute="leading" id="mRw-F2-PXe"/>
+                            <constraint firstItem="iLc-XD-PZ2" firstAttribute="top" secondItem="YTn-t4-voP" secondAttribute="bottom" id="qXf-jA-zOX"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="YXU-Yh-bXb" appends="YES" id="ULS-67-6Hz"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="AbI-xF-Tas">
+                        <barButtonItem key="leftBarButtonItem" title="Tab Bar" id="gMr-MZ-P9j">
+                            <connections>
+                                <action selector="tabBarTapped:" destination="7h7-MA-GP4" id="92O-hD-tCo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="YTn-t4-voP" id="ObF-pg-RXQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6qq-CR-c5S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="YXU-Yh-bXb">
+                    <connections>
+                        <action selector="tapGestureFired:" destination="7h7-MA-GP4" id="VJS-QF-nt5"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1800" y="1"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Xwp-nE-zsA">
+            <objects>
+                <viewController id="cx4-us-L6F" customClass="ViewController" customModule="SWRevealViewControllerTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rlb-xC-kIb"/>
+                        <viewControllerLayoutGuide type="bottom" id="s71-BY-Je7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="61C-hy-3GB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.63909675904807184" green="0.97148966756952193" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XXc-Rw-wGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="988" y="800"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qrb-eO-zXU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nf2-QN-TN3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bSx-km-s4u">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7h7-MA-GP4" kind="relationship" relationship="rootViewController" id="hh2-qn-Fj8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yWQ-JL-8UA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="988" y="1"/>
+        </scene>
+    </scenes>
+</document>

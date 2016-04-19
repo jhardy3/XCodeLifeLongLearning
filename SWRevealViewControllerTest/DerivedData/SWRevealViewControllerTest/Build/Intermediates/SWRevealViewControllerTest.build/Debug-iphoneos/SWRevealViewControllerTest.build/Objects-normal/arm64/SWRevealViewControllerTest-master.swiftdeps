@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "580a385396802b249d4b788d603a535a"
+build_time: [513817239, 393797000]
+inputs:
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/SWRevealViewControllerTest/SWRevealViewControllerTest/newViewController.swift": [513816588, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/SWRevealViewControllerTest/SWRevealViewControllerTest/SecondViewController.swift": [513817239, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/SWRevealViewControllerTest/SWRevealViewControllerTest/ViewController.swift": [513810127, 0]
+  "/Users/JLH/Desktop/Swift Code Bank/Xcode Lifelong Learning/SWRevealViewControllerTest/SWRevealViewControllerTest/AppDelegate.swift": [513806009, 0]

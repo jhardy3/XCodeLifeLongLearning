@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "98671b16cf6eea34aea4086ecfeb764c"
+build_time: [513550979, 559936000]
+inputs:
+  "/Users/JLH/Desktop/Personal Projects/Xcode Lifelong Learning/SliderAdjustingFontColorTest/SliderAdjustingTextSizeTest/ViewController.swift": !dirty [513550196, 0]
+  "/Users/JLH/Desktop/Personal Projects/Xcode Lifelong Learning/SliderAdjustingFontColorTest/SliderAdjustingTextSizeTest/AppDelegate.swift": !dirty [513549701, 0]
